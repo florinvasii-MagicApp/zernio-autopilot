@@ -1,10 +1,10 @@
 {
-  "github_user": "COMPLETEAZA_USER_GITHUB",
+  "github_user": "florinvasii-MagicApp",
   "github_repo": "zernio-autopilot",
   "timezone": "Europe/Bucharest",
   "conturi": {
     "vasii": {
-      "zernio_account_id": "COMPLETEAZA_ID_CONT_INSTAGRAM_VASII",
+      "zernio_account_id": "6a4d8ce93ecd8aa34458bca7",
       "handle": "@vasii.florin",
       "header_brand": "FLORIN VASII",
       "zile_ore": [
@@ -28,7 +28,7 @@
       "procent_hameleonul": 15
     },
     "hameleonul": {
-      "zernio_account_id": "COMPLETEAZA_ID_CONT_INSTAGRAM_HAMELEONUL",
+      "zernio_account_id": "6a4d8ce93ecd8aa34458bca7",
       "handle": "@hameleonul.invizibil",
       "header_brand": "HAMELEONUL INVIZIBIL",
       "zile_ore": [
