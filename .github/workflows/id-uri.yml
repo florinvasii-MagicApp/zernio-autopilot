@@ -1,0 +1,18 @@
+name: Afiseaza ID-uri conturi
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  iduri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow requests
+      - name: Listeaza conturile din Zernio
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+        run: python autopilot.py accounts
