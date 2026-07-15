@@ -1,0 +1,39 @@
+name: Zernio Autopilot
+
+on:
+  schedule:
+    # Duminică 15:00 UTC = 18:00 ora României (vara)
+    - cron: "0 15 * * 0"
+  workflow_dispatch: {}   # buton de rulare manuală, pentru teste
+
+permissions:
+  contents: write
+
+jobs:
+  autopilot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalează dependențele
+        run: pip install pillow requests
+
+      - name: Generează postările și imaginile
+        run: python autopilot.py generate
+
+      - name: Publică imaginile pe GitHub (devin linkuri publice)
+        run: |
+          git config user.name "zernio-autopilot"
+          git config user.email "actions@github.com"
+          git add media history.json plan_saptamana.json
+          git commit -m "Postări generate $(date +%F)" || echo "nimic de comis"
+          git push
+
+      - name: Programează postările în Zernio
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+        run: python autopilot.py schedule
