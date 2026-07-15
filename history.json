@@ -1,3 +1,34 @@
 {
-  "folosite": []
+  "folosite": [
+    {
+      "id": "9ddb8ddf896d",
+      "data": "20260715",
+      "cont": "vasii"
+    },
+    {
+      "id": "56db91cbbb85",
+      "data": "20260715",
+      "cont": "vasii"
+    },
+    {
+      "id": "c0782b4e010b",
+      "data": "20260715",
+      "cont": "vasii"
+    },
+    {
+      "id": "6079a832a365",
+      "data": "20260715",
+      "cont": "hameleonul"
+    },
+    {
+      "id": "0ca6ebd49b07",
+      "data": "20260715",
+      "cont": "hameleonul"
+    },
+    {
+      "id": "a6c653dceaa1",
+      "data": "20260715",
+      "cont": "hameleonul"
+    }
+  ]
 }
