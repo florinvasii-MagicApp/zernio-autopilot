@@ -1,0 +1,61 @@
+{
+  "github_user": "COMPLETEAZA_USER_GITHUB",
+  "github_repo": "zernio-autopilot",
+  "timezone": "Europe/Bucharest",
+  "conturi": {
+    "vasii": {
+      "zernio_account_id": "COMPLETEAZA_ID_CONT_INSTAGRAM_VASII",
+      "handle": "@vasii.florin",
+      "header_brand": "FLORIN VASII",
+      "zile_ore": [
+        [
+          "Tue",
+          "19:00"
+        ],
+        [
+          "Thu",
+          "20:00"
+        ],
+        [
+          "Sat",
+          "10:00"
+        ]
+      ],
+      "teme": [
+        "intelepciune",
+        "hameleonul"
+      ],
+      "procent_hameleonul": 15
+    },
+    "hameleonul": {
+      "zernio_account_id": "COMPLETEAZA_ID_CONT_INSTAGRAM_HAMELEONUL",
+      "handle": "@hameleonul.invizibil",
+      "header_brand": "HAMELEONUL INVIZIBIL",
+      "zile_ore": [
+        [
+          "Mon",
+          "08:00"
+        ],
+        [
+          "Wed",
+          "13:00"
+        ],
+        [
+          "Fri",
+          "19:00"
+        ]
+      ],
+      "teme": [
+        "afirmatii",
+        "hameleonul"
+      ],
+      "procent_hameleonul": 15
+    }
+  },
+  "hashtag_seturi": [
+    "#dezvoltarepersonala #motivatie #citate #mindsetul #incredereinsine",
+    "#afirmatii #gandireapozitiva #vindecare #recunostinta #motivatie",
+    "#abundenta #succesul #dezvoltarepersonala #gandireapozitiva #citate",
+    "#afirmatiidedimineata #motivatie #incredereinsine #prezent #dezvoltarepersonala"
+  ]
+}
