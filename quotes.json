@@ -1,80 +1,54 @@
 {
   "afirmatii": [
-    {
-      "text": "Totul este bine. Totul se desfășoară pentru binele meu suprem. Doar lucruri bune vor veni din asta și sunt în siguranță, protejat și iubit.",
-      "autor": "Louise Hay, You Can Heal Your Life"
-    },
-    {
-      "text": "E doar un gând, iar un gând poate fi schimbat.",
-      "autor": "Louise Hay"
-    },
-    {
-      "text": "Fiecare gând pe care îl gândesc îmi creează viitorul.",
-      "autor": "Louise Hay"
-    },
-    {
-      "text": "Ziua mea începe și se termină cu recunoștință.",
-      "autor": "Louise Hay"
-    },
-    {
-      "text": "Sunt în siguranță, protejat și iubit.",
-      "autor": "Louise Hay"
-    },
-    {
-      "text": "Doar binele poate veni din această situație.",
-      "autor": "Louise Hay"
-    },
-    {
-      "text": "Îmi dau voie să fiu tot ce pot fi.",
-      "autor": "Louise Hay"
-    },
-    {
-      "text": "Viața mă susține în tot ce fac.",
-      "autor": "Louise Hay"
-    }
+    {"text": "Totul este bine. Totul se desfășoară pentru binele meu suprem. Doar lucruri bune vor veni din asta și sunt în siguranță, protejat și iubit.", "autor": "Louise Hay, You Can Heal Your Life"},
+    {"text": "E doar un gând, iar un gând poate fi schimbat.", "autor": "Louise Hay"},
+    {"text": "Fiecare gând pe care îl gândesc îmi creează viitorul.", "autor": "Louise Hay"},
+    {"text": "Ziua mea începe și se termină cu recunoștință.", "autor": "Louise Hay"},
+    {"text": "Sunt în siguranță, protejat și iubit.", "autor": "Louise Hay"},
+    {"text": "Doar binele poate veni din această situație.", "autor": "Louise Hay"},
+    {"text": "Îmi dau voie să fiu tot ce pot fi.", "autor": "Louise Hay"},
+    {"text": "Viața mă susține în tot ce fac.", "autor": "Louise Hay"},
+    {"text": "Sunt la locul potrivit, la momentul potrivit, făcând ceea ce trebuie făcut.", "autor": "Louise Hay"},
+    {"text": "Iubirea de sine face minuni în viața mea.", "autor": "Louise Hay"},
+    {"text": "Fiecare experiență prin care trec este perfectă pentru creșterea mea.", "autor": "Louise Hay"},
+    {"text": "Nu sunt prizonierul trecutului. Aleg gândurile care îmi construiesc ziua de azi.", "autor": "Louise Hay"},
+    {"text": "Îmi este ușor să iert. Iertarea mă eliberează pe mine, nu pe celălalt.", "autor": "Louise Hay"},
+    {"text": "Corpul meu aude tot ce gândesc. Astăzi îi vorbesc frumos.", "autor": "Louise Hay"}
   ],
   "intelepciune": [
-    {
-      "text": "Dacă schimbi felul în care privești lucrurile, lucrurile pe care le privești se schimbă.",
-      "autor": "Wayne Dyer"
-    },
-    {
-      "text": "Abundența nu e ceva ce dobândim. E ceva la care ne conectăm.",
-      "autor": "Wayne Dyer"
-    },
-    {
-      "text": "Recunoașterea binelui pe care îl ai deja în viață este fundamentul oricărei abundențe.",
-      "autor": "Eckhart Tolle"
-    },
-    {
-      "text": "Realizează profund că momentul prezent e tot ce vei avea vreodată.",
-      "autor": "Eckhart Tolle"
-    },
-    {
-      "text": "Viața ta nu se îmbunătățește din întâmplare, ci prin schimbare.",
-      "autor": "Jim Rohn"
-    },
-    {
-      "text": "Disciplina este puntea dintre obiective și împlinire.",
-      "autor": "Jim Rohn"
-    },
-    {
-      "text": "Motivația te pornește. Obiceiul te ține în mișcare.",
-      "autor": "Jim Rohn"
-    }
+    {"text": "Dacă schimbi felul în care privești lucrurile, lucrurile pe care le privești se schimbă.", "autor": "Wayne Dyer"},
+    {"text": "Abundența nu e ceva ce dobândim. E ceva la care ne conectăm.", "autor": "Wayne Dyer"},
+    {"text": "Recunoașterea binelui pe care îl ai deja în viață este fundamentul oricărei abundențe.", "autor": "Eckhart Tolle"},
+    {"text": "Realizează profund că momentul prezent e tot ce vei avea vreodată.", "autor": "Eckhart Tolle"},
+    {"text": "Viața ta nu se îmbunătățește din întâmplare, ci prin schimbare.", "autor": "Jim Rohn"},
+    {"text": "Disciplina este puntea dintre obiective și împlinire.", "autor": "Jim Rohn"},
+    {"text": "Motivația te pornește. Obiceiul te ține în mișcare.", "autor": "Jim Rohn"},
+    {"text": "Ori conduci tu ziua, ori te conduce ea pe tine.", "autor": "Jim Rohn"},
+    {"text": "Ești media celor cinci oameni cu care îți petreci cel mai mult timp.", "autor": "Jim Rohn"},
+    {"text": "Nu poți controla mereu ce se întâmplă în afara ta. Dar poți controla mereu ce se întâmplă în interiorul tău.", "autor": "Wayne Dyer"},
+    {"text": "Cauza principală a nefericirii nu este niciodată situația, ci gândurile tale despre ea.", "autor": "Eckhart Tolle"},
+    {"text": "Oriunde ai fi, fii acolo pe deplin.", "autor": "Eckhart Tolle"},
+    {"text": "Nu trebuie să fii extraordinar ca să începi. Dar trebuie să începi ca să devii extraordinar.", "autor": "Zig Ziglar"},
+    {"text": "Ceea ce mintea poate concepe și crede, poate și realiza.", "autor": "Napoleon Hill"},
+    {"text": "Viața noastră este ceea ce gândurile noastre o fac.", "autor": "Marcus Aurelius"},
+    {"text": "Suferim mai des în imaginație decât în realitate.", "autor": "Seneca"},
+    {"text": "Nu lucrurile ne tulbură, ci părerile noastre despre lucruri.", "autor": "Epictet"},
+    {"text": "Dacă poți să vezi ceva în mintea ta, poți să ții acel ceva în mâna ta.", "autor": "Bob Proctor"}
   ],
   "hameleonul": [
-    {
-      "text": "Adaptabilitatea nu e trădare de sine. E cea mai înaltă formă de fidelitate față de scopul tău.",
-      "autor": "Florin Vasii, Hameleonul Invizibil"
-    },
-    {
-      "text": "Cameleonul nu își schimbă esența. Își schimbă doar culoarea cu care întâlnește lumea.",
-      "autor": "Florin Vasii, Hameleonul Invizibil"
-    },
-    {
-      "text": "Cea mai importantă vânzare a zilei e cea către tine însuți, dimineața, în oglindă.",
-      "autor": "Florin Vasii, Hameleonul Invizibil"
-    }
+    {"text": "Adaptabilitatea nu e trădare de sine. E cea mai înaltă formă de fidelitate față de scopul tău.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Cameleonul nu își schimbă esența. Își schimbă doar culoarea cu care întâlnește lumea.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Cea mai importantă vânzare a zilei e cea către tine însuți, dimineața, în oglindă.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Am învățat mai mult din ușile care mi s-au închis decât din cele care mi s-au deschis. Ușa închisă te obligă să te uiți la tine.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Clientul nu cumpără produsul tău. Cumpără felul în care îl faci să se simtă cât timp îl asculți.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "La 14 ani căram saci în port. Nu știam atunci că nu greutatea din spate te formează, ci decizia de a te întoarce a doua zi.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Există un moment în orice negociere când tăcerea vinde mai bine decât orice cuvânt. Cine vorbește primul din frică, pierde.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Mercenarul lucrează pentru bani. Credinciosul, pentru sens. Maestrul a înțeles că fără primul nu supraviețuiești, iar fără al doilea nu trăiești.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Cel mai periculos gând din vânzări e „știu deja”. În ziua în care nu mai ai întrebări, ai încetat să crești.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Am plecat de la o masă unde negocierea devenise capitulare. Cea mai bună afacere din viața mea a fost una pe care nu am făcut-o.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Oamenii nu se schimbă când văd lumina. Se schimbă când simt căldura. Fii căldura, nu reflectorul.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Invizibil nu înseamnă absent. Înseamnă atât de bine adaptat, încât nimeni nu mai vede efortul — doar rezultatul.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Fiecare „nu” primit e o hartă. Îți arată exact unde nu ai construit încă destulă încredere.", "autor": "Florin Vasii, Hameleonul Invizibil"},
+    {"text": "Nu vinzi ceea ce spui. Vinzi ceea ce celălalt înțelege. Iar între cele două e o distanță pe care doar ascultarea o scurtează.", "autor": "Florin Vasii, Hameleonul Invizibil"}
   ]
 }
