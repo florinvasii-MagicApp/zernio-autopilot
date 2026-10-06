@@ -94,31 +94,47 @@ def spiral(d, cx, cy, scale, color, width=3):
         pts.append((cx + r * math.cos(t), cy + r * math.sin(t)))
     d.line(pts, fill=color, width=width)
 
-def render(path, fdir, header, quote, author, handle):
+def render(path, fdir, header, quote, author, handle, pe_scurt, azi):
     img = Image.new("RGB", (W, H), BG)
     d = ImageDraw.Draw(img)
     m = 46
     d.rectangle([m, m, W - m, H - m], outline=GOLD, width=2)
     d.rectangle([m + 10, m + 10, W - m - 10, H - m - 10], outline=(80, 68, 46), width=1)
-    spiral(d, W - 230, H - 250, 3.2, (52, 46, 34))
-    hf = font(fdir, "Montserrat.ttf", 30, 600)
-    d.text(((W - d.textlength(header, font=hf)) / 2, 118), header, font=hf, fill=GOLD)
-    d.line([(W / 2 - 70, 178), (W / 2 + 70, 178)], fill=GOLD, width=2)
-    size = 84 if len(quote) < 90 else (72 if len(quote) < 160 else 62)
-    qf = font(fdir, "CormorantGaramond.ttf", size, 520)
-    lines = wrap(d, quote, qf, W - 260)
-    lh = int(size * 1.22)
-    y = (H - len(lines) * lh) / 2 - 40
-    om = font(fdir, "CormorantGaramond.ttf", 150, 600)
-    d.text((W / 2 - d.textlength("\u201c", font=om) / 2, y - 150), "\u201c", font=om, fill=GOLD)
-    for ln in lines:
+    hf = font(fdir, "Montserrat.ttf", 28, 600)
+    d.text(((W - d.textlength(header, font=hf)) / 2, 110), header, font=hf, fill=GOLD)
+    d.line([(W / 2 - 70, 164), (W / 2 + 70, 164)], fill=GOLD, width=2)
+
+    size = 64 if len(quote) < 90 else (56 if len(quote) < 160 else 50)
+    qf = font(fdir, "CormorantGaramond.ttf", size, 560)
+    qlines = wrap(d, "\u201e" + quote + "\u201d", qf, W - 220)
+    lh = int(size * 1.2)
+    af = font(fdir, "Montserrat.ttf", 26, 600)
+    lf = font(fdir, "Montserrat.ttf", 24, 700)
+    bfnt = font(fdir, "Montserrat.ttf", 31, 400)
+    blh = 44
+    ps_lines = wrap(d, pe_scurt, bfnt, W - 240)
+    az_lines = wrap(d, azi, bfnt, W - 240)
+    total = (len(qlines) * lh + 30 + 34 + 70 + 34 + len(ps_lines) * blh
+             + 40 + 34 + len(az_lines) * blh)
+    y = 200 + max(0, (H - 330 - total) / 2)
+
+    for ln in qlines:
         d.text(((W - d.textlength(ln, font=qf)) / 2, y), ln, font=qf, fill=IVORY)
         y += lh
-    af = font(fdir, "Montserrat.ttf", 32, 600)
     at = "\u2014 " + author
-    d.text(((W - d.textlength(at, font=af)) / 2, y + 55), at, font=af, fill=GOLD)
-    bf = font(fdir, "Montserrat.ttf", 28, 500)
-    d.text(((W - d.textlength(handle, font=bf)) / 2, H - 150), handle, font=bf, fill=MUTED)
+    d.text(((W - d.textlength(at, font=af)) / 2, y + 22), at, font=af, fill=GOLD)
+    y += 30 + 34 + 34
+    d.line([(120, y), (W - 120, y)], fill=(80, 68, 46), width=1)
+    y += 36
+    for label, lines in (("PE SCURT", ps_lines), ("AZI", az_lines)):
+        d.text((120, y), label, font=lf, fill=GOLD)
+        y += 40
+        for ln in lines:
+            d.text((120, y), ln, font=bfnt, fill=IVORY)
+            y += blh
+        y += 34
+    bf = font(fdir, "Montserrat.ttf", 26, 500)
+    d.text(((W - d.textlength(handle, font=bf)) / 2, H - 120), handle, font=bf, fill=MUTED)
     img.save(path, quality=92)
 
 # ---------------- selecție + verificare ----------------
@@ -131,7 +147,9 @@ def pick_quotes(cfg_cont, quotes, history, n):
     pool = []
     for tema in cfg_cont["teme"]:
         for q in quotes.get(tema, []):
-            pool.append((tema, q))
+            # doar citatele cu explicație aprobată intră în rotație
+            if q.get("pe_scurt") and q.get("azi"):
+                pool.append((tema, q))
     proprii = [(t, q) for t, q in pool if t == "hameleonul" and qid(q) not in recent]
     externe = [(t, q) for t, q in pool if t != "hameleonul" and qid(q) not in recent]
     random.shuffle(proprii); random.shuffle(externe)
@@ -148,15 +166,18 @@ def pick_quotes(cfg_cont, quotes, history, n):
     return alese
 
 def caption(q, hashtags):
-    intro = random.choice([
-        "Salvează acest gând pentru zilele grele. \U0001f90d",
-        "Citește-l de două ori. A doua oară, cu voce tare.",
-        "Un singur gând bun poate schimba direcția unei zile întregi.",
-        "Repetă-l 7 dimineți la rând și urmărește ce se schimbă.",
+    intrebare = random.choice([
+        "Tu cum aplici asta? Spune-mi în comentarii.",
+        "Salvează postarea și revino la ea diseară.",
+        "Trimite-o cuiva care are nevoie de ea azi.",
+        "Ce ai adăuga tu? Scrie în comentarii.",
     ])
-    text = f"\u201e{q['text']}\u201d \u2014 {q['autor']}\n\n{intro}\n\n{hashtags}"
+    text = (f"\u201e{q['text']}\u201d \u2014 {q['autor']}\n\n"
+            f"Pe scurt: {q['pe_scurt']}\n\n"
+            f"Azi: {q['azi']}\n\n{intrebare}\n\n{hashtags}")
     # verificări automate
     assert q["autor"].strip(), "citat fără atribuire"
+    assert q["pe_scurt"].strip() and q["azi"].strip(), "citat fără explicație"
     assert len(text) <= 2200, "caption peste limita Instagram"
     assert text.count("#") >= 3, "prea puține hashtag-uri"
     return text
@@ -188,7 +209,8 @@ def cmd_generate():
             when = next_weekday(now, day).strftime("%Y-%m-%d") + "T" + hh + ":00"
             fname = f"{tag}-{key}-{day.lower()}.jpg"
             header = "AFIRMA\u021aIA DIMINE\u021aII" if tema == "afirmatii" else "G\u00c2NDUL ZILEI"
-            render(os.path.join(MEDIA, fname), fdir, header, q["text"], q["autor"], cont["handle"])
+            render(os.path.join(MEDIA, fname), fdir, header, q["text"], q["autor"], cont["handle"],
+                   q["pe_scurt"], q["azi"])
             url = f"https://raw.githubusercontent.com/{cfg['github_user']}/{cfg['github_repo']}/main/media/{fname}"
             plan.append({
                 "account_id": cont["zernio_account_id"],

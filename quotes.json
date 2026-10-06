@@ -1,54 +1,284 @@
 {
   "afirmatii": [
-    {"text": "Totul este bine. Totul se desfășoară pentru binele meu suprem. Doar lucruri bune vor veni din asta și sunt în siguranță, protejat și iubit.", "autor": "Louise Hay, You Can Heal Your Life"},
-    {"text": "E doar un gând, iar un gând poate fi schimbat.", "autor": "Louise Hay"},
-    {"text": "Fiecare gând pe care îl gândesc îmi creează viitorul.", "autor": "Louise Hay"},
-    {"text": "Ziua mea începe și se termină cu recunoștință.", "autor": "Louise Hay"},
-    {"text": "Sunt în siguranță, protejat și iubit.", "autor": "Louise Hay"},
-    {"text": "Doar binele poate veni din această situație.", "autor": "Louise Hay"},
-    {"text": "Îmi dau voie să fiu tot ce pot fi.", "autor": "Louise Hay"},
-    {"text": "Viața mă susține în tot ce fac.", "autor": "Louise Hay"},
-    {"text": "Sunt la locul potrivit, la momentul potrivit, făcând ceea ce trebuie făcut.", "autor": "Louise Hay"},
-    {"text": "Iubirea de sine face minuni în viața mea.", "autor": "Louise Hay"},
-    {"text": "Fiecare experiență prin care trec este perfectă pentru creșterea mea.", "autor": "Louise Hay"},
-    {"text": "Nu sunt prizonierul trecutului. Aleg gândurile care îmi construiesc ziua de azi.", "autor": "Louise Hay"},
-    {"text": "Îmi este ușor să iert. Iertarea mă eliberează pe mine, nu pe celălalt.", "autor": "Louise Hay"},
-    {"text": "Corpul meu aude tot ce gândesc. Astăzi îi vorbesc frumos.", "autor": "Louise Hay"}
+    {
+      "text": "Totul este bine. Totul se desfășoară pentru binele meu suprem. Doar lucruri bune vor veni din asta și sunt în siguranță, protejat și iubit.",
+      "autor": "Louise Hay, You Can Heal Your Life",
+      "pe_scurt": "Chiar și când ceva merge prost, poți alege să cauți ce lecție sau ce ușă nouă ascunde.",
+      "azi": "Când apare o problemă, scrie un singur lucru bun care ar putea ieși din ea."
+    },
+    {
+      "text": "E doar un gând, iar un gând poate fi schimbat.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Un gând nu e un fapt. Îl poți observa, cântări și înlocui cu altul mai util.",
+      "azi": "Când îți spui „nu pot”, încearcă „încă nu știu cum”."
+    },
+    {
+      "text": "Fiecare gând pe care îl gândesc îmi creează viitorul.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Ce îți repeți zilnic devine felul în care acționezi, iar acțiunile îți construiesc viitorul.",
+      "azi": "Prinde un gând negativ pe care îl repeți des și scrie-l pe dos, la pozitiv."
+    },
+    {
+      "text": "Ziua mea începe și se termină cu recunoștință.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Recunoștința dimineața îți setează tonul zilei; seara te ajută să vezi ce a mers bine.",
+      "azi": "Diseară, înainte de somn, numește trei lucruri pentru care ești recunoscător."
+    },
+    {
+      "text": "Sunt în siguranță, protejat și iubit.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Mintea se liniștește mai ușor când îi spui clar că nu e în pericol.",
+      "azi": "Data viitoare când te simți tensionat, respiră adânc de trei ori și repetă propoziția."
+    },
+    {
+      "text": "Doar binele poate veni din această situație.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Nu orice situație e bună, dar din aproape orice poți scoate ceva util.",
+      "azi": "Gândește-te la o încercare din trecut: ce ai câștigat din ea?"
+    },
+    {
+      "text": "Îmi dau voie să fiu tot ce pot fi.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Adesea nu lumea ne oprește, ci permisiunea pe care nu ne-o dăm noi.",
+      "azi": "Alege un lucru pe care îl amâni „până ești pregătit” și fă primul pas azi."
+    },
+    {
+      "text": "Viața mă susține în tot ce fac.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Nu ești singur împotriva tuturor. Oameni, ocazii și experiențe te ajută mai des decât observi.",
+      "azi": "Scrie numele a trei oameni care te-au ajutat luna asta. Mulțumește unuia."
+    },
+    {
+      "text": "Sunt la locul potrivit, la momentul potrivit, făcând ceea ce trebuie făcut.",
+      "autor": "Louise Hay",
+      "pe_scurt": "În loc să regreți ce ar fi trebuit să fie, te concentrezi pe ce poți face acum.",
+      "azi": "Când te întrebi „ce caut eu aici?”, întreabă-te „ce pot face bine aici?”."
+    },
+    {
+      "text": "Iubirea de sine face minuni în viața mea.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Când te tratezi cu respect, ceilalți învață cum să te trateze.",
+      "azi": "Spune-ți azi un lucru bun despre tine, la fel cum i l-ai spune unui prieten."
+    },
+    {
+      "text": "Fiecare experiență prin care trec este perfectă pentru creșterea mea.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Și momentele grele te învață ceva: răbdare, limite, putere.",
+      "azi": "Gândește-te la ce te-a învățat cea mai grea lună din ultimul an."
+    },
+    {
+      "text": "Nu sunt prizonierul trecutului. Aleg gândurile care îmi construiesc ziua de azi.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Ce s-a întâmplat nu se mai schimbă, dar felul în care gândești azi, da.",
+      "azi": "Când revine o amintire grea, întreabă-te: ce vreau să fac azi, nu ieri?"
+    },
+    {
+      "text": "Îmi este ușor să iert. Iertarea mă eliberează pe mine, nu pe celălalt.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Ranchiuna te ține legat de omul care te-a rănit. Iertarea te dezleagă.",
+      "azi": "Gândește-te la cineva căruia îi porți pică și întreabă-te cât te costă pe tine."
+    },
+    {
+      "text": "Corpul meu aude tot ce gândesc. Astăzi îi vorbesc frumos.",
+      "autor": "Louise Hay",
+      "pe_scurt": "Stresul și vorbele dure cu tine însuți se simt și fizic: tensiune, oboseală.",
+      "azi": "Azi, când te critici, oprește-te și spune-ți: „fac tot ce pot”."
+    }
   ],
   "intelepciune": [
-    {"text": "Dacă schimbi felul în care privești lucrurile, lucrurile pe care le privești se schimbă.", "autor": "Wayne Dyer"},
-    {"text": "Abundența nu e ceva ce dobândim. E ceva la care ne conectăm.", "autor": "Wayne Dyer"},
-    {"text": "Recunoașterea binelui pe care îl ai deja în viață este fundamentul oricărei abundențe.", "autor": "Eckhart Tolle"},
-    {"text": "Realizează profund că momentul prezent e tot ce vei avea vreodată.", "autor": "Eckhart Tolle"},
-    {"text": "Viața ta nu se îmbunătățește din întâmplare, ci prin schimbare.", "autor": "Jim Rohn"},
-    {"text": "Disciplina este puntea dintre obiective și împlinire.", "autor": "Jim Rohn"},
-    {"text": "Motivația te pornește. Obiceiul te ține în mișcare.", "autor": "Jim Rohn"},
-    {"text": "Ori conduci tu ziua, ori te conduce ea pe tine.", "autor": "Jim Rohn"},
-    {"text": "Ești media celor cinci oameni cu care îți petreci cel mai mult timp.", "autor": "Jim Rohn"},
-    {"text": "Nu poți controla mereu ce se întâmplă în afara ta. Dar poți controla mereu ce se întâmplă în interiorul tău.", "autor": "Wayne Dyer"},
-    {"text": "Cauza principală a nefericirii nu este niciodată situația, ci gândurile tale despre ea.", "autor": "Eckhart Tolle"},
-    {"text": "Oriunde ai fi, fii acolo pe deplin.", "autor": "Eckhart Tolle"},
-    {"text": "Nu trebuie să fii extraordinar ca să începi. Dar trebuie să începi ca să devii extraordinar.", "autor": "Zig Ziglar"},
-    {"text": "Ceea ce mintea poate concepe și crede, poate și realiza.", "autor": "Napoleon Hill"},
-    {"text": "Viața noastră este ceea ce gândurile noastre o fac.", "autor": "Marcus Aurelius"},
-    {"text": "Suferim mai des în imaginație decât în realitate.", "autor": "Seneca"},
-    {"text": "Nu lucrurile ne tulbură, ci părerile noastre despre lucruri.", "autor": "Epictet"},
-    {"text": "Dacă poți să vezi ceva în mintea ta, poți să ții acel ceva în mâna ta.", "autor": "Bob Proctor"}
+    {
+      "text": "Dacă schimbi felul în care privești lucrurile, lucrurile pe care le privești se schimbă.",
+      "autor": "Wayne Dyer",
+      "pe_scurt": "Aceeași situație arată altfel din alt unghi. Unghiul îl alegi tu.",
+      "azi": "Gândește-te la o problemă de azi ca și cum ar fi a unui prieten. Ce sfat i-ai da?"
+    },
+    {
+      "text": "Abundența nu e ceva ce dobândim. E ceva la care ne conectăm.",
+      "autor": "Wayne Dyer",
+      "pe_scurt": "Ești deja bogat în lucruri pe care le uiți: sănătate, oameni, timp. Abundența începe cu a le vedea.",
+      "azi": "Fă o listă de cinci lucruri pe care le ai deja și pe care alții și le doresc."
+    },
+    {
+      "text": "Recunoașterea binelui pe care îl ai deja în viață este fundamentul oricărei abundențe.",
+      "autor": "Eckhart Tolle",
+      "pe_scurt": "Cine nu se bucură de ce are nu se va bucura nici de ce va avea.",
+      "azi": "Înainte să ceri ceva nou, mulțumește pentru ceva ce ai deja."
+    },
+    {
+      "text": "Realizează profund că momentul prezent e tot ce vei avea vreodată.",
+      "autor": "Eckhart Tolle",
+      "pe_scurt": "Trecutul s-a dus, viitorul nu e aici. Singurul loc în care poți acționa e acum.",
+      "azi": "Când te prinzi gândind la ce va fi, întreabă-te: ce pot face în următoarele 10 minute?"
+    },
+    {
+      "text": "Viața ta nu se îmbunătățește din întâmplare, ci prin schimbare.",
+      "autor": "Jim Rohn",
+      "pe_scurt": "Lucrurile nu se repară singure. Se repară când faci ceva diferit.",
+      "azi": "Alege un obicei mic care nu te ajută și schimbă-l săptămâna asta."
+    },
+    {
+      "text": "Disciplina este puntea dintre obiective și împlinire.",
+      "autor": "Jim Rohn",
+      "pe_scurt": "Obiectivele rămân vise fără disciplina zilnică de a face pașii mici.",
+      "azi": "Alege un singur pas pentru obiectivul tău și fă-l azi, chiar dacă nu ai chef."
+    },
+    {
+      "text": "Motivația te pornește. Obiceiul te ține în mișcare.",
+      "autor": "Jim Rohn",
+      "pe_scurt": "Entuziasmul trece repede. Ce rămâne e ce faci din obișnuință.",
+      "azi": "Leagă un obicei nou de unul vechi: de exemplu, citești 5 minute după cafea."
+    },
+    {
+      "text": "Ori conduci tu ziua, ori te conduce ea pe tine.",
+      "autor": "Jim Rohn",
+      "pe_scurt": "Dacă nu-ți planifici ziua, o planifică alții pentru tine: telefonul, mailurile, urgențele.",
+      "azi": "Diseară, scrie cele trei lucruri importante pe care le faci mâine."
+    },
+    {
+      "text": "Ești media celor cinci oameni cu care îți petreci cel mai mult timp.",
+      "autor": "Jim Rohn",
+      "pe_scurt": "Oamenii din jur îți influențează ambițiile, obiceiurile și felul de a gândi.",
+      "azi": "Gândește-te cu cine petreci cel mai mult timp. Te trag în sus sau în jos?"
+    },
+    {
+      "text": "Nu poți controla mereu ce se întâmplă în afara ta. Dar poți controla mereu ce se întâmplă în interiorul tău.",
+      "autor": "Wayne Dyer",
+      "pe_scurt": "Nu poți opri ploaia, dar poți alege dacă îți strică ziua.",
+      "azi": "Când ceva te enervează, întreabă-te: ce parte din asta pot controla eu?"
+    },
+    {
+      "text": "Cauza principală a nefericirii nu este niciodată situația, ci gândurile tale despre ea.",
+      "autor": "Eckhart Tolle",
+      "pe_scurt": "Nu situația te doare cel mai tare, ci povestea pe care ți-o spui despre ea.",
+      "azi": "Când ești supărat, scrie faptele separat de ce gândești despre ele."
+    },
+    {
+      "text": "Oriunde ai fi, fii acolo pe deplin.",
+      "autor": "Eckhart Tolle",
+      "pe_scurt": "Cine e cu mintea în altă parte nu e cu adevărat nicăieri.",
+      "azi": "La următoarea discuție, lasă telefonul deoparte și ascultă până la capăt."
+    },
+    {
+      "text": "Nu trebuie să fii extraordinar ca să începi. Dar trebuie să începi ca să devii extraordinar.",
+      "autor": "Zig Ziglar",
+      "pe_scurt": "Nu aștepta momentul perfect. Primul pas te face mai bun, nu invers.",
+      "azi": "Fă azi o versiune imperfectă a lucrului pe care îl tot amâni."
+    },
+    {
+      "text": "Ceea ce mintea poate concepe și crede, poate și realiza.",
+      "autor": "Napoleon Hill",
+      "pe_scurt": "Credința că poți face ceva e primul pas ca să-l faci.",
+      "azi": "Scrie un obiectiv clar și citește-l în fiecare dimineață timp de o săptămână."
+    },
+    {
+      "text": "Viața noastră este ceea ce gândurile noastre o fac.",
+      "autor": "Marcus Aurelius",
+      "pe_scurt": "Aceeași zi poate părea grea sau suportabilă, în funcție de ce îți spui despre ea.",
+      "azi": "Când te prinzi gândind „nu iese nimic”, întreabă-te: ce a ieșit totuși bine azi?"
+    },
+    {
+      "text": "Suferim mai des în imaginație decât în realitate.",
+      "autor": "Seneca",
+      "pe_scurt": "Ne facem griji pentru lucruri care, de cele mai multe ori, nu se întâmplă.",
+      "azi": "Scrie grija care te apasă și, lângă ea, cât de probabil e să se întâmple."
+    },
+    {
+      "text": "Nu lucrurile ne tulbură, ci părerile noastre despre lucruri.",
+      "autor": "Epictet",
+      "pe_scurt": "Același eveniment îl supără pe unul și îl lasă rece pe altul. Diferența e în cum îl judecăm.",
+      "azi": "Când ceva te deranjează, întreabă-te: e chiar grav sau doar așa îl văd eu?"
+    },
+    {
+      "text": "Dacă poți să vezi ceva în mintea ta, poți să ții acel ceva în mâna ta.",
+      "autor": "Bob Proctor",
+      "pe_scurt": "Când îți imaginezi clar ce vrei, îți dai seama mai ușor ce pași ai de făcut.",
+      "azi": "Închide ochii un minut și imaginează-ți obiectivul atins. Ce ai făcut ca să ajungi acolo?"
+    }
   ],
   "hameleonul": [
-    {"text": "Adaptabilitatea nu e trădare de sine. E cea mai înaltă formă de fidelitate față de scopul tău.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Cameleonul nu își schimbă esența. Își schimbă doar culoarea cu care întâlnește lumea.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Cea mai importantă vânzare a zilei e cea către tine însuți, dimineața, în oglindă.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Am învățat mai mult din ușile care mi s-au închis decât din cele care mi s-au deschis. Ușa închisă te obligă să te uiți la tine.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Clientul nu cumpără produsul tău. Cumpără felul în care îl faci să se simtă cât timp îl asculți.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "La 14 ani căram saci în port. Nu știam atunci că nu greutatea din spate te formează, ci decizia de a te întoarce a doua zi.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Există un moment în orice negociere când tăcerea vinde mai bine decât orice cuvânt. Cine vorbește primul din frică, pierde.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Mercenarul lucrează pentru bani. Credinciosul, pentru sens. Maestrul a înțeles că fără primul nu supraviețuiești, iar fără al doilea nu trăiești.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Cel mai periculos gând din vânzări e „știu deja”. În ziua în care nu mai ai întrebări, ai încetat să crești.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Am plecat de la o masă unde negocierea devenise capitulare. Cea mai bună afacere din viața mea a fost una pe care nu am făcut-o.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Oamenii nu se schimbă când văd lumina. Se schimbă când simt căldura. Fii căldura, nu reflectorul.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Invizibil nu înseamnă absent. Înseamnă atât de bine adaptat, încât nimeni nu mai vede efortul — doar rezultatul.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Fiecare „nu” primit e o hartă. Îți arată exact unde nu ai construit încă destulă încredere.", "autor": "Florin Vasii, Hameleonul Invizibil"},
-    {"text": "Nu vinzi ceea ce spui. Vinzi ceea ce celălalt înțelege. Iar între cele două e o distanță pe care doar ascultarea o scurtează.", "autor": "Florin Vasii, Hameleonul Invizibil"}
+    {
+      "text": "Adaptabilitatea nu e trădare de sine. E cea mai înaltă formă de fidelitate față de scopul tău.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Să te adaptezi la oameni nu înseamnă să renunți la tine, ci să-ți servești scopul mai bine.",
+      "azi": "La următoarea întâlnire, adaptează-ți tonul la omul din fața ta, nu mesajul."
+    },
+    {
+      "text": "Cameleonul nu își schimbă esența. Își schimbă doar culoarea cu care întâlnește lumea.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Poți vorbi diferit cu oameni diferiți fără să devii altcineva.",
+      "azi": "Gândește-te cum vorbești cu un client și cum cu un prieten. Ce rămâne la fel?"
+    },
+    {
+      "text": "Cea mai importantă vânzare a zilei e cea către tine însuți, dimineața, în oglindă.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Dacă nu crezi tu în tine, nu vei convinge pe nimeni altcineva.",
+      "azi": "Mâine dimineață, spune-ți cu voce tare de ce merită să te asculte cineva."
+    },
+    {
+      "text": "Am învățat mai mult din ușile care mi s-au închis decât din cele care mi s-au deschis. Ușa închisă te obligă să te uiți la tine.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Eșecurile te obligă să te întrebi ce poți face mai bine. Succesul rar face asta.",
+      "azi": "Gândește-te la ultimul „nu” primit și scrie un lucru pe care îl schimbi data viitoare."
+    },
+    {
+      "text": "Clientul nu cumpără produsul tău. Cumpără felul în care îl faci să se simtă cât timp îl asculți.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Oamenii țin minte cum i-ai făcut să se simtă mai mult decât ce le-ai spus.",
+      "azi": "La următoarea discuție, pune o întrebare și ascultă răspunsul fără să întrerupi."
+    },
+    {
+      "text": "La 14 ani căram saci în port. Nu știam atunci că nu greutatea din spate te formează, ci decizia de a te întoarce a doua zi.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Nu efortul te formează, ci alegerea de a reveni a doua zi.",
+      "azi": "Gândește-te la un lucru greu pe care ai vrut să-l abandonezi. Ce te-ar ajuta să revii mâine?"
+    },
+    {
+      "text": "Există un moment în orice negociere când tăcerea vinde mai bine decât orice cuvânt. Cine vorbește primul din frică, pierde.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Când taci după o ofertă, îi lași celuilalt loc să decidă. Când vorbești din teamă, îi dai motive de îndoială.",
+      "azi": "Data viitoare, după ce spui prețul, numără în gând până la 5 înainte să mai spui ceva."
+    },
+    {
+      "text": "Mercenarul lucrează pentru bani. Credinciosul, pentru sens. Maestrul a înțeles că fără primul nu supraviețuiești, iar fără al doilea nu trăiești.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Ai nevoie și de bani, și de sens. Doar unul dintre ele nu e de ajuns.",
+      "azi": "Scrie de ce faci munca pe care o faci, în afară de salariu."
+    },
+    {
+      "text": "Cel mai periculos gând din vânzări e „știu deja”. În ziua în care nu mai ai întrebări, ai încetat să crești.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Când crezi că știi totul, nu mai înveți nimic nou.",
+      "azi": "Întreabă azi un client sau un coleg ceva ce credeai că știi deja."
+    },
+    {
+      "text": "Am plecat de la o masă unde negocierea devenise capitulare. Cea mai bună afacere din viața mea a fost una pe care nu am făcut-o.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Uneori cea mai bună decizie e să spui „nu” unei afaceri care te costă prea mult.",
+      "azi": "Gândește-te la un compromis pe care îl faci acum. Merită ce te costă?"
+    },
+    {
+      "text": "Oamenii nu se schimbă când văd lumina. Se schimbă când simt căldura. Fii căldura, nu reflectorul.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Oamenii nu se schimbă pentru că le arăți ce greșesc, ci pentru că se simt înțeleși.",
+      "azi": "Data viitoare când vrei să corectezi pe cineva, începe cu ce a făcut bine."
+    },
+    {
+      "text": "Invizibil nu înseamnă absent. Înseamnă atât de bine adaptat, încât nimeni nu mai vede efortul — doar rezultatul.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Cei mai buni par să facă totul ușor, pentru că munca lor nu se vede.",
+      "azi": "Alege o abilitate și exerseaz-o 10 minute pe zi, fără să aștepți aplauze."
+    },
+    {
+      "text": "Fiecare „nu” primit e o hartă. Îți arată exact unde nu ai construit încă destulă încredere.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Un refuz îți arată unde lipsește încrederea, nu că tu nu valorezi nimic.",
+      "azi": "La următorul „nu”, întreabă politicos: „Ce ar fi trebuit să fie altfel?”"
+    },
+    {
+      "text": "Nu vinzi ceea ce spui. Vinzi ceea ce celălalt înțelege. Iar între cele două e o distanță pe care doar ascultarea o scurtează.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Contează ce înțelege celălalt, nu doar ce spui tu. Ascultarea scurtează distanța.",
+      "azi": "După ce explici ceva, cere-i celuilalt să-ți spună cu cuvintele lui ce a înțeles."
+    }
   ]
 }
