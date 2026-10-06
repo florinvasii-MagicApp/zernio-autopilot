@@ -1,0 +1,61 @@
+name: Înlocuire postări săptămână
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "inlocuire/cerere.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: inlocuire
+  cancel-in-progress: false
+
+jobs:
+  inlocuieste:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalează dependențele
+        run: pip install pillow requests
+
+      - name: Șterge din Zernio postările vechi de săptămâna asta
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+        run: python inlocuieste.py sterge
+
+      - name: Generează postările noi pe aceleași ore
+        run: python inlocuieste.py genereaza
+
+      - name: Publică imaginile noi
+        run: |
+          git config user.name "zernio-autopilot"
+          git config user.email "actions@github.com"
+          git add media history.json plan_saptamana.json inlocuire/stare.json
+          git commit -m "Postări înlocuite $(date +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Așteaptă să fie publice imaginile
+        run: sleep 30
+
+      - name: Programează postările noi în Zernio
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+        run: python autopilot.py schedule
+
+      - name: Marchează înlocuirea ca terminată
+        run: |
+          python -c "import json;json.dump({'status':'gata','postari':len(json.load(open('plan_saptamana.json')))},open('inlocuire/rezultat.json','w'))"
+          git add inlocuire/rezultat.json
+          git commit -m "Înlocuire terminată $(date +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main
