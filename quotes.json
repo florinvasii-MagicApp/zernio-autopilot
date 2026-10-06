@@ -193,6 +193,72 @@
       "autor": "Bob Proctor",
       "pe_scurt": "Când îți imaginezi clar ce vrei, îți dai seama mai ușor ce pași ai de făcut.",
       "azi": "Închide ochii un minut și imaginează-ți obiectivul atins. Ce ai făcut ca să ajungi acolo?"
+    },
+    {
+      "text": "Nu pentru că lucrurile sunt grele nu îndrăznim; pentru că nu îndrăznim, sunt grele.",
+      "autor": "Seneca",
+      "pe_scurt": "Multe lucruri par grele doar pentru că nu le-am încercat încă.",
+      "azi": "Alege un lucru pe care îl ocolești de mult și fă azi primul pas mic."
+    },
+    {
+      "text": "Cât timp trăim, să învățăm cum să trăim.",
+      "autor": "Seneca",
+      "pe_scurt": "Nu există o vârstă la care ai terminat de învățat.",
+      "azi": "Învață azi un lucru nou, oricât de mic, de la cineva din jurul tău."
+    },
+    {
+      "text": "Nu avem prea puțin timp, ci pierdem mult din el.",
+      "autor": "Seneca",
+      "pe_scurt": "Problema nu e că ziua e scurtă, ci cât din ea risipim.",
+      "azi": "Diseară, verifică cât timp ai petrecut azi pe telefon fără un scop anume."
+    },
+    {
+      "text": "Dacă un om nu știe spre ce port navighează, niciun vânt nu e favorabil.",
+      "autor": "Seneca",
+      "pe_scurt": "Fără o direcție clară, orice ocazie trece pe lângă tine.",
+      "azi": "Scrie într-o propoziție unde vrei să fii peste un an."
+    },
+    {
+      "text": "Ce stă în calea acțiunii devine acțiunea. Ce stă în drum devine drumul.",
+      "autor": "Marcus Aurelius",
+      "pe_scurt": "Obstacolul îți arată adesea exact ce trebuie să faci mai departe.",
+      "azi": "Gândește-te la problema care te blochează acum: ce te învață ea să faci?"
+    },
+    {
+      "text": "Nu mai pierde timpul discutând cum ar trebui să fie un om bun. Fii unul.",
+      "autor": "Marcus Aurelius",
+      "pe_scurt": "Faptele spun mai mult decât orice discuție despre valori.",
+      "azi": "Fă azi un gest bun pentru cineva, fără să-l anunți nimănui."
+    },
+    {
+      "text": "Cea mai bună răzbunare este să nu devii asemenea celui care te-a rănit.",
+      "autor": "Marcus Aurelius",
+      "pe_scurt": "Când răspunzi răului cu rău, devii ce nu-ți place la celălalt.",
+      "azi": "Data viitoare când cineva te jignește, răspunde calm sau nu răspunde deloc."
+    },
+    {
+      "text": "Nu poți învăța ceea ce crezi că știi deja.",
+      "autor": "Epictet",
+      "pe_scurt": "Ca să înveți, trebuie mai întâi să accepți că nu știi totul.",
+      "azi": "Pune azi o întrebare despre un subiect în care te consideri expert."
+    },
+    {
+      "text": "Mai întâi spune-ți cine vrei să fii; apoi fă ce ai de făcut.",
+      "autor": "Epictet",
+      "pe_scurt": "Când știi ce fel de om vrei să fii, deciziile devin mai simple.",
+      "azi": "Scrie trei cuvinte care descriu omul care vrei să fii. Verifică diseară dacă ai trăit după ele."
+    },
+    {
+      "text": "Călătoria de o mie de mile începe cu un singur pas.",
+      "autor": "Lao Tzi",
+      "pe_scurt": "Orice lucru mare pornește de la ceva mic.",
+      "azi": "Împarte un obiectiv mare în pași și fă-l azi pe primul."
+    },
+    {
+      "text": "Totul poate fi luat de la un om, cu excepția unui lucru: ultima dintre libertățile umane — alegerea atitudinii în orice set de împrejurări.",
+      "autor": "Viktor Frankl",
+      "pe_scurt": "Chiar și când nu poți schimba situația, poți alege cum reacționezi la ea.",
+      "azi": "Când ești într-o situație pe care nu o controlezi, alege conștient tonul cu care răspunzi."
     }
   ],
   "hameleonul": [
@@ -279,6 +345,138 @@
       "autor": "Florin Vasii, Hameleonul Invizibil",
       "pe_scurt": "Contează ce înțelege celălalt, nu doar ce spui tu. Ascultarea scurtează distanța.",
       "azi": "După ce explici ceva, cere-i celuilalt să-ți spună cu cuvintele lui ce a înțeles."
+    },
+    {
+      "text": "Cei mai buni vânzători din lume nu execută cele mai bune tehnici. Cei mai buni vânzători din lume au cea mai curată minte.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Tehnicile se învață repede. Ce face diferența e starea cu care intri în conversație.",
+      "azi": "Înainte de următorul apel, lasă deoparte refuzul de ieri. Intră ca și cum ar fi primul."
+    },
+    {
+      "text": "Adevărul e că nu te simți niciodată pregătit. Oamenii de succes acționează înainte să se simtă pregătiți.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Senzația de „sunt gata” vine de obicei după primul pas, nu înainte.",
+      "azi": "Alege un lucru pe care îl amâni „până ești pregătit” și fă-l azi, imperfect."
+    },
+    {
+      "text": "Nu ești programat pentru succes. Ești programat pentru supraviețuire.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Creierul tău preferă siguranța în locul riscului, chiar și atunci când riscul ar merita.",
+      "azi": "Când simți frica înainte de o decizie, întreabă-te: e un pericol real sau doar ceva nou?"
+    },
+    {
+      "text": "Nu vei deveni altcineva. Vei deveni cine ești când nu te uiți.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Schimbarea nu te transformă în alt om. Scoate la iveală ce e deja în tine.",
+      "azi": "Gândește-te cum ești când nu-ți pasă de părerea altora. Adu un pic din omul ăla azi la birou."
+    },
+    {
+      "text": "Diferența dintre tine și cineva care are viața pe care ți-o dorești nu e talent. Nu e noroc. E software-ul care rulează în fundal — și el poate fi rescris.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Obiceiurile și credințele tale decid mai mult decât talentul. Iar ele se pot schimba.",
+      "azi": "Scrie o credință care te frânează, de tipul „eu nu sunt bun la…”, și caută o dovadă că nu e adevărată."
+    },
+    {
+      "text": "Calibrarea bună e ca un dans în doi. Schimbi pasul. Nu schimbi partenerul.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Te adaptezi la omul din fața ta fără să renunți la ce ești și la ce vrei.",
+      "azi": "La următoarea discuție, potrivește-ți ritmul vorbirii cu al celuilalt. Mesajul rămâne același."
+    },
+    {
+      "text": "Recalibrarea nu înseamnă să uiți cine ai fost. Înseamnă să traduci tot ce ai acumulat în limba locului în care ai ajuns.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Experiența ta veche contează și în locuri noi, dacă o explici în limbajul lor.",
+      "azi": "Dacă ai schimbat domeniul, scrie trei lucruri din vechea meserie care te ajută în cea nouă."
+    },
+    {
+      "text": "Hameleonul își schimbă culoarea pentru a supraviețui în mediu. Nu își schimbă specia.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Poți vorbi diferit cu oameni diferiți și să rămâi același om.",
+      "azi": "Observă azi cum vorbești cu un client și cum cu un prieten. Ce rămâne neschimbat e identitatea ta."
+    },
+    {
+      "text": "Citește, dar mai ales aplică. O carte despre înot citită pe canapea nu te face înotător.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Informația fără practică nu schimbă nimic.",
+      "azi": "Din ultima carte sau ultimul curs, alege o singură idee și aplic-o săptămâna asta."
+    },
+    {
+      "text": "Rezultatul fără proces este vis. Procesul fără rezultat este efort orb.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Ai nevoie să știi unde vrei să ajungi și ce faci zi de zi ca să ajungi acolo.",
+      "azi": "Scrie obiectivul tău, iar dedesubt primul pas concret pe care îl faci mâine."
+    },
+    {
+      "text": "Reframingul nu te face să te simți mai bine. Te face să gândești mai util.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Nu e vorba să te minți că totul e bine, ci să cauți unghiul din care poți acționa.",
+      "azi": "Când ceva iese prost, întreabă-te: ce pot face acum, cu ce am?"
+    },
+    {
+      "text": "Schimbarea nu se simte ca o transformare. Se simte ca o serie de momente mici în care, surprinzător, faci altceva decât ai fi făcut.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Nu aștepta o zi mare în care totul se schimbă. Schimbarea vine din pași mici.",
+      "azi": "Diseară, notează un singur moment în care azi ai reacționat altfel decât de obicei."
+    },
+    {
+      "text": "Problema nu este că ai aceste pattern-uri. Toți le avem. Problema este că nu știi că rulează.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Toți avem reacții automate. Devin periculoase doar când nu le observăm.",
+      "azi": "Gândește-te la o reacție pe care o ai mereu în aceeași situație. Doar observ-o data viitoare."
+    },
+    {
+      "text": "Bugul nu dispare cu timpul. Dispare doar când îl vezi.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Un obicei care te sabotează nu trece singur. Trebuie mai întâi să-l recunoști.",
+      "azi": "Când te prinzi repetând aceeași greșeală, scrie exact ce s-a întâmplat înainte de ea."
+    },
+    {
+      "text": "Diferența reală era că unii se vedeau gândind. Ceilalți pur și simplu gândeau.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Cine își observă gândurile poate să le corecteze. Cine nu, doar le urmează.",
+      "azi": "Înainte de o decizie importantă, oprește-te zece secunde și întreabă-te: de ce aleg asta?"
+    },
+    {
+      "text": "Nu poți controla ce se întâmplă. Poți controla prin ce filtru procesezi ce se întâmplă.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Evenimentele nu le alegi, dar alegi cum le interpretezi.",
+      "azi": "Când primești o veste proastă, găsește încă două moduri în care ai putea s-o vezi."
+    },
+    {
+      "text": "Un om inteligent poate justifica orice. Aceasta este puterea lui. Și acesta este pericolul lui.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Cu cât gândești mai bine, cu atât îți găsești mai ușor scuze pentru o decizie greșită.",
+      "azi": "Înainte de o decizie mare, cere-i cuiva de încredere să-ți spună de ce ar putea fi o greșeală."
+    },
+    {
+      "text": "Nu vindem produse. Vindem oglinzi în care clientul se vede mai bun.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Oamenii nu cumpără obiecte, ci felul în care se vor simți cu ele.",
+      "azi": "La următoarea vânzare, întreabă clientul cum își imaginează viața după ce cumpără."
+    },
+    {
+      "text": "Cel mai des, obiecția pe care o auzi de la client este doar ecoul îndoielii pe care tu ai adus-o în cameră.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Dacă tu nu crezi în ce vinzi, clientul simte asta și ezită.",
+      "azi": "Înainte de întâlnire, spune-ți trei motive pentru care oferta ta chiar îl ajută pe client."
+    },
+    {
+      "text": "Nu îmi lipsea nimic. Îmi lipsea doar permisiunea internă să greșesc încă o dată.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "De multe ori nu lipsa pregătirii ne oprește, ci frica de încă un eșec.",
+      "azi": "Fă azi un lucru pe care îl amâni, știind dinainte că ai voie să nu-ți iasă perfect."
+    },
+    {
+      "text": "Argumentele se învață în câteva luni. Mintea curată se construiește în ani.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "Tehnicile le înveți repede. Calmul și încrederea se construiesc în timp.",
+      "azi": "Alege un obicei mic care te liniștește înainte de întâlniri și repetă-l zilnic."
+    },
+    {
+      "text": "Nu prezentasem nimic în acel apel. Întrebasem ce contează. Asta a făcut diferența.",
+      "autor": "Florin Vasii, Hameleonul Invizibil",
+      "pe_scurt": "O întrebare bună deschide mai mult decât cea mai bună prezentare.",
+      "azi": "La următorul apel, înainte să vorbești despre ofertă, întreabă: „Ce contează cel mai mult pentru dumneavoastră?”"
     }
   ]
 }
