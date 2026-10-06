@@ -1,0 +1,48 @@
+name: Carusele Zernio
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "carusele/coada.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: carusele
+  cancel-in-progress: false
+
+jobs:
+  programeaza:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalează dependențele
+        run: pip install requests
+
+      - name: Așteaptă să fie publice imaginile
+        run: sleep 30
+
+      - name: Programează caruselele în Zernio
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+        run: python carusele.py
+
+      - name: Salvează starea cozii
+        run: |
+          git config user.name "zernio-autopilot"
+          git config user.email "actions@github.com"
+          git add carusele/coada.json
+          if git commit -m "Carusele programate $(date +%F)"; then
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          else
+            echo "nimic de comis"
+          fi
