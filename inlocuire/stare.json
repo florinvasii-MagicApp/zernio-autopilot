@@ -1,0 +1,34 @@
+{
+  "sterse": [
+    {
+      "account_id": "6a4d8ce93ecd8aa34458bca7",
+      "schedule_time": "2026-10-10T10:00:00",
+      "vechi": "20261004-vasii-sat.jpg",
+      "zernio_post_id": "6ac29a6bf4b24c5305d44888"
+    },
+    {
+      "account_id": "6a57d03e3d50078def8c1044",
+      "schedule_time": "2026-10-09T19:00:00",
+      "vechi": "20261004-hameleonul-fri.jpg",
+      "zernio_post_id": "6ac29a6df4b24c5305d4488c"
+    },
+    {
+      "account_id": "6a4d8ce93ecd8aa34458bca7",
+      "schedule_time": "2026-10-08T20:00:00",
+      "vechi": "20261004-vasii-thu.jpg",
+      "zernio_post_id": "6ac29a6a31e69b252b4281de"
+    },
+    {
+      "account_id": "6a57d03e3d50078def8c1044",
+      "schedule_time": "2026-10-07T13:00:00",
+      "vechi": "20261004-hameleonul-wed.jpg",
+      "zernio_post_id": "6ac29a6c81088fc73a395ce6"
+    },
+    {
+      "account_id": "6a4d8ce93ecd8aa34458bca7",
+      "schedule_time": "2026-10-06T19:00:00",
+      "vechi": "20261004-vasii-tue.jpg",
+      "zernio_post_id": "6ac29a6931e69b252b4281da"
+    }
+  ]
+}
